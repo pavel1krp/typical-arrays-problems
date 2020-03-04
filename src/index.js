@@ -4,10 +4,10 @@ exports.min = function min(array) {
     return 0;
   }
   else {
-    array.sort(a, b) = a - b;
+    let a;
+    array.sort((a,b) => a-b);
     return array[0];
   }
-
 }
 
 exports.max = function max(array) {
@@ -15,7 +15,8 @@ exports.max = function max(array) {
     return 0;
   }
   else {
-    array.sort(a, b) = a - b;
+    let a;
+    array.sort((a,b) => a-b);
     return array[array.length - 1];
   }
 }
